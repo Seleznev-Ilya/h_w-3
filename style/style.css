@@ -1,0 +1,114 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.efect {
+    transform: scale(1.5);
+    margin-top: 130px;
+}
+
+.container {
+    font-family: 'Muli', sans-serif;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    transform: translate(0, -750px);
+    margin-left: calc(50% - 235px);
+}
+
+h1 {
+    text-align: center;
+}
+
+.right {
+    display: inline-block;
+    margin: 20px;
+    list-style-type: none;
+    transform: rotate(180deg);
+}
+
+.right li {
+    margin-bottom: 2px;
+}
+
+.wrapper {
+    transform: translate(385px, 448px);
+}
+
+.wrapper2 {
+    transform: translate(17px, 28px);
+}
+
+.top {
+    display: inline;
+    margin-left: 40px;
+    list-style-type: none;
+}
+
+.bottom {
+    display: inline;
+    margin: 0 0 0 35px;
+    list-style-type: none;
+}
+
+.bottom li, .top li {
+    display: inline;
+    margin-right: 35px;
+}
+
+.left {
+    display: inline-block;
+    margin: 20px;
+    transform: translate(-5px, 913px);
+    list-style-type: none;
+}
+
+.left li {
+    margin-bottom: 2px;
+}
+
+.points {
+    width: 421px;
+    height: 415px;
+    border: 2px solid black;
+    padding: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
+}
+
+.chess {
+    border: 4px solid black;
+    border-right: 2px solid black;
+    width: 391px;
+    height: 385px;
+    padding: 1px;
+    margin: 10px 0 0 10px;
+}
+
+.a, .a li, .b li {
+    display: inline-block;
+    list-style: none;
+}
+
+li {
+    height: 50px;
+    width: 50px;
+    margin: -3px;
+}
+
+.a li:nth-child(odd) {
+    background-color: black;
+}
+
+.a li:nth-child(even) {
+    background-image: url("../img/1.jpg");
+}
+
+.b li:nth-child(even) {
+    background-color: black;
+}
+
+.b li:nth-child(odd) {
+    background-image: url("../img/1.jpg");
+}
+
